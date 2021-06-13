@@ -23,7 +23,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.usdc,
   },
   {
-    pid: 4,
+    pid: 3,
     lpSymbol: 'MATIC-USDC LP',
     lpAddresses: {
       80001: '',
@@ -33,7 +33,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wmatic,
   },
   {
-    pid: 6,
+    pid: 4,
     lpSymbol: 'ETH-USDC LP',
     lpAddresses: {
       80001: '',
