@@ -42,7 +42,7 @@ const tokens = {
   eth: {
     symbol: 'ETH',
     address: {
-      137: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
       80001: '',
     },
     decimals: 18,
