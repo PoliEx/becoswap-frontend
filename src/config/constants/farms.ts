@@ -14,13 +14,13 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    lpSymbol: 'POLEX-USDT LP',
+    lpSymbol: 'POLEX-USDC LP',
     lpAddresses: {
       80001: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      137: '0xA3Aa99b50946358b22523cd4A1fC8A29ce6Bee98',
+      137: '0x1341CcCfC5cf4AA2B8299cdcD46f05d4845e28Dc',
     },
     token: tokens.polex,
-    quoteToken: tokens.usdt,
+    quoteToken: tokens.usdc,
   },
   {
     pid: 4,
