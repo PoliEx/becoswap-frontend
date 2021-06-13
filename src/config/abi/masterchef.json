@@ -443,7 +443,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingBeco",
+    "name": "pendingPolex",
     "outputs": [
       {
         "internalType": "uint256",
