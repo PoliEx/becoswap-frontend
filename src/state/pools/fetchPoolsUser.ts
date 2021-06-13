@@ -67,7 +67,7 @@ export const fetchUserStakeBalances = async (account) => {
   //   {},
   // )
 
-  // Beco / Beco pool
+  // Polex / Polex pool
   const { amount: masterPoolAmount } = await masterChefContract.methods.userInfo('0', account).call()
 
   return { 0: new BigNumber(masterPoolAmount).toJSON() }
@@ -93,8 +93,8 @@ export const fetchUserPendingRewards = async (account) => {
   //   {},
   // )
 
-  // Beco / Beco pool
-  const pendingReward = await masterChefContract.methods.pendingBeco('0', account).call()
+  // Polex / Polex pool
+  const pendingReward = await masterChefContract.methods.pendingPolex('0', account).call()
   const pendingRewardAfterTax = pendingReward - pendingReward/TRANSFER_TAX;
 
   return { 0: new BigNumber(pendingRewardAfterTax).toJSON() }
