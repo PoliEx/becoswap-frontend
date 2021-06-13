@@ -162,7 +162,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
       <ExpandingWrapper expanded={showExpandableSection}>
         <DetailsSection
           removed={removed}
-          bscScanAddress={`https://polygonscan.com/token/0xdf7f30243d0e9a070163cb0f092dce9135472fc5?a=${farm.lpAddresses[process.env.REACT_APP_CHAIN_ID]}`}
+          bscScanAddress={`https://polygonscan.com//address/0x0f733c81ff79be10e722eaabf98d55230fed7504?a=${farm.lpAddresses[process.env.REACT_APP_CHAIN_ID]}`}
           infoAddress={`https://info.quickswap.exchange/pair/${lpAddress}`}
           totalValueFormatted={totalValueFormatted}
           lpLabel={lpLabel}
