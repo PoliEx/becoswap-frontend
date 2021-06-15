@@ -55,7 +55,7 @@ const Home: React.FC = () => {
     <div>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {t('PoliEx Finance')}
+          {t('Polex Finance')}
         </Heading>
         <Text>{t('The world first high Yield Farm & AMM on Polygon.')}</Text>
       </Hero>
