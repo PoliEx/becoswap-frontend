@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'POLEX-MATIC LP',
     lpAddresses: {
       80001: '',
-      137: '0xeAdbf646bAbca32a2E2a669Cd168f9559fDb0B36',
+      137: '0xe7eaCF28b036cA3DF50ccC38de35FB69373Ae15B',
     },
     token: tokens.polex,
     quoteToken: tokens.wmatic,
@@ -16,8 +16,8 @@ const farms: FarmConfig[] = [
     pid: 2,
     lpSymbol: 'POLEX-USDC LP',
     lpAddresses: {
-      80001: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      137: '0x1341CcCfC5cf4AA2B8299cdcD46f05d4845e28Dc',
+      80001: '',
+      137: '0x73d59b065bb3465c232f266cd91e8226a1f2c834',
     },
     token: tokens.polex,
     quoteToken: tokens.usdc,
