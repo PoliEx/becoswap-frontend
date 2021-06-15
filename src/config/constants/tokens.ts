@@ -6,7 +6,7 @@ const tokens = {
   polex: {
     symbol: 'POLEX',
     address: {
-      137: '0x7643fe2724f1b5f09d49ddd5b79600b7d4fd10f8',
+      137: '0x0f733C81ff79be10E722eAAbf98D55230FEd7504',
       80001: '',
     },
     decimals: 18,
