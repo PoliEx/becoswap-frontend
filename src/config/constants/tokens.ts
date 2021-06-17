@@ -30,15 +30,7 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://polygon.technology/',
   },
-  busd: {
-    symbol: 'BUSD',
-    address: {
-      137: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-      80001: '',
-    },
-    decimals: 18,
-    projectLink: 'https://www.paxos.com/busd/',
-  },
+  
   eth: {
     symbol: 'ETH',
     address: {
@@ -57,15 +49,7 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://www.centre.io/usdc',
   },
-  cake: {
-    symbol: 'CAKE',
-    address: {
-      137: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-      80001: '',
-    },
-    decimals: 18,
-    projectLink: 'https://pancakeswap.finance/',
-  },
+ 
   usdt: {
     symbol: 'USDT',
     address: {
@@ -76,24 +60,7 @@ const tokens = {
     projectLink: 'https://tether.to/',
   },
 
-  tusd: {
-    symbol: 'TUSD',
-    address: {
-      137: '0x14016e85a25aeb13065688cafb43044c2ef86784',
-      80001: '',
-    },
-    decimals: 18,
-    projectLink: 'https://www.trueusd.com/',
-  },
-  ust: {
-    symbol: 'UST',
-    address: {
-      137: '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
-      80001: '',
-    },
-    decimals: 18,
-    projectLink: 'https://mirror.finance/',
-  },
+ 
   dai: {
     symbol: 'DAI',
     address: {
@@ -104,60 +71,7 @@ const tokens = {
     projectLink: 'http://www.makerdao.com/',
   },
 
-  ltc: {
-    symbol: 'LTC',
-    address: {
-      137: '0x4338665cbb7b2485a8855a139b75d5e34ab0db94',
-      80001: '',
-    },
-    decimals: 18,
-    projectLink: 'https://litecoin.org/',
-  },
-  xrp: {
-    symbol: 'XRP',
-    address: {
-      137: '0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe',
-      80001: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
-    },
-    decimals: 18,
-    projectLink: 'https://ripple.com/xrp/',
-  },
-  uni: {
-    symbol: 'UNI',
-    address: {
-      137: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1',
-      80001: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
-    },
-    decimals: 18,
-    projectLink: 'https://uniswap.org/',
-  },
-  vai: {
-    symbol: 'VAI',
-    address: {
-      137: '0x4bd17003473389a42daf6a0a729f6fdb328bbbd7',
-      80001: '',
-    },
-    decimals: 18,
-    projectLink: 'https://venus.io/',
-  },
-  doge: {
-    symbol: 'DOGE',
-    address: {
-      137: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
-      80001: '',
-    },
-    decimals: 8,
-    projectLink: 'https://dogecoin.com/',
-  },
-  trx: {
-    symbol: 'TRX',
-    address: {
-      137: '0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b',
-      80001: '',
-    },
-    decimals: 18,
-    projectLink: 'https://tron.network/',
-  },
+  
 }
 
 export default tokens
