@@ -10,7 +10,7 @@ const farms: FarmConfig[] = [
       137: '0xe7eaCF28b036cA3DF50ccC38de35FB69373Ae15B',
     },
     token: tokens.polex,
-    quoteToken: tokens.wmatic,
+    quoteToken: tokens.wbnb,
   },
   {
     pid: 2,
@@ -30,7 +30,7 @@ const farms: FarmConfig[] = [
       137: '0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827',
     },
     token: tokens.usdc,
-    quoteToken: tokens.wmatic,
+    quoteToken: tokens.wbnb,
   },
    {
     pid: 4,
