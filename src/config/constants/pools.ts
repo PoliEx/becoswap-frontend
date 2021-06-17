@@ -17,18 +17,14 @@ const pools: PoolConfig[] = [
     isFinished: false,
   },
   {
-    sousId: 5,
-    stakingToken: tokens.usdc,
-    earningToken: tokens.polex,
-    contractAddress: {
+    pid: 5,
+    lpSymbol: 'USDC',
+    lpAddresses: {
       80001: '',
-      137: '0xD510754Cce167D9C60d7f311F61e3e7073EEAB3E',
+      137: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
     },
-    poolCategory: PoolCategory.CORE,
-    harvest: true,
-    tokenPerBlock: '5',
-    sortOrder: 2,
-    isFinished: false,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
   },
 ]
 
