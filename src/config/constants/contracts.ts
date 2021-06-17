@@ -7,6 +7,10 @@ export default {
     80001: '',
     137: '0x6ab8463a4185b80905e05a9ff80a2d6b714b9e95',
   },
+  wbnb: {
+    80001: '',
+    137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' // WMATIC
+  },
   lottery: {
     80001: '',
     137: '0x091fF4ee8b12dF117a9b3A9F3D7E8fd5f6F79ac1',
