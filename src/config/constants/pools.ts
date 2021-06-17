@@ -17,7 +17,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
   },
   {
-    sousId: 1,
+    sousId: 5,
     stakingToken: tokens.usdc,
     earningToken: tokens.polex,
     contractAddress: {
