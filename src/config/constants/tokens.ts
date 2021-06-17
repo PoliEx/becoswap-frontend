@@ -31,8 +31,8 @@ const tokens = {
     projectLink: 'https://polygon.technology/',
   },
   
-  eth: {
-    symbol: 'ETH',
+  weth: {
+    symbol: 'WETH',
     address: {
       137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
       80001: '',
