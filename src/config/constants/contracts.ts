@@ -21,7 +21,7 @@ export default {
   },
   multiCall: {
     80001: '',
-    137: '0xa1309ABC70fbD6415397252557156940528f7d19',
+    137: '0x3b48f2f27491ab0f19beb65b9b08786db50b1c7d',
   },
   pancakeProfile: {
     80001: '',
