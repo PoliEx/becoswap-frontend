@@ -32,16 +32,7 @@ const farms: FarmConfig[] = [
     token: tokens.usdc,
     quoteToken: tokens.wbnb,
   },
-   {
-    pid: 4,
-    lpSymbol: 'WETH-USDC LP',
-    lpAddresses: {
-      80001: '',
-      137: '0x853Ee4b2A13f8a742d64C8F088bE7bA2131f670d',
-    },
-    token: tokens.usdc,
-    quoteToken: tokens.weth,
-  },
+   
   
 ]
 
