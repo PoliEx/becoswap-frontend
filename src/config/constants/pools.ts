@@ -16,16 +16,7 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
   },
-  {
-    pid: 5,
-    lpSymbol: 'USDC',
-    lpAddresses: {
-      80001: '',
-      137: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
-    },
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
-  },
+  
 ]
 
 export default pools
